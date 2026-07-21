@@ -1503,4 +1503,45 @@ transform:translateY(-250px);
 
 }
 
+}  
+/*==========================
+        TOAST
+==========================*/
+
+.toast{
+
+position:fixed;
+
+bottom:30px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+background:#151515;
+
+color:white;
+
+padding:15px 30px;
+
+border-radius:12px;
+
+font-weight:600;
+
+box-shadow:0 0 20px rgba(255,0,180,.45);
+
+opacity:0;
+
+transition:.3s;
+
+z-index:99999;
+
+}
+
+.toast.mostrar{
+
+opacity:1;
+
+bottom:60px;
+
 }
