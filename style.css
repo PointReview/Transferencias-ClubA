@@ -32,26 +32,6 @@
 
 }
 
-/* Botón transferir */
-
-.transferir{
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-    gap:10px;
-
-}
-
-.transferir:active{
-
-    transform:scale(.98);
-
-}
-
 /* Toast mejorado */
 
 .toast{
